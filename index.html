@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Womakers challenger</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
 </head>
 
@@ -25,42 +26,51 @@
         </nav>
     </header>
     <section id="bemvindos">
-        <div id="slide">
-            <h1>BEM VIND@</h1>
-            <h2>Womakers challenger</h2>
-            <p>Lorem ipsum class justo senectus inceptos mi metus tortor porta malesuada porttitor nibh libero,
-                consequat felis dictumst et eros sapien massa amet litora senectus facilisis vel. </p>
-            <img src="images/slider01.png">
+        <div class="container">
+            <div id="slide">
+                <div class="textoslide">
+                    <h1>BEM VIND@</h1>
+                    <h2>Womakers challenger</h2>
+                    <p>Lorem ipsum class justo senectus inceptos mi metus tortor porta malesuada porttitor nibh libero,
+                        consequat felis dictumst et eros sapien massa amet litora senectus facilisis vel. </p>
+                </div>
+                <img src="images/slider01.png">
+            </div>
         </div>
     </section>
     <section id="servicos">
-        <h1>Serviços</h1>
-        <p>Justo pretium praesent taciti aptent etiam volutpat nisi at, tempus rutrum class habitant ultrices aliquet
-            vestibulum vitae eget, ornare fringilla non venenatis quisque cras scelerisque. </p>
-        <hr>
-        <article>
-            <img src="images/Service1.png" />
-            <h2>websites</h2>
+        <div class="container">
+            <div class="textoserv">
 
-            <p> turpis torquent scelerisque mauris nec etiam ut morbi, imperdiet mollis pulvinar gravida malesuada quis,
-                ultricies donec posuere scelerisque enim hac.</p>
-        </article>
-        <article>
+                <h2>Serviços</h2>
+                <p>Justo pretium praesent taciti aptent etiam volutpat nisi at, tempus rutrum class habitant ultrices
+                    aliquet
+                    vestibulum vitae eget, ornare fringilla non venenatis quisque cras scelerisque. </p>
+            </div>
+            <hr>
+            <div class="contserv">
 
-            <img src="images/Service2.png " />
-            <h2>Templates</h2>
-            <p> vel quis orci turpis taciti convallis luctus eros lectus vulputate, duis varius aenean sapien massa
-                felis
-                sollicitudin proin dapibus, suscipit accumsan scelerisque semper mollis et imperdiet tortor.</p>
-        </article>
-        <article>
-            <img src="images/Service3.png" />
-            <h2>Temas Wordpress</h2>
+                <article>
+                    <img src="images/Service1.png" />
+                    <h2>websites</h2>
 
-            <p>laoreet luctus mi libero blandit tellus commodo pretium convallis, auctor eget vulputate et gravida
-                tellus
-                tristique, laoreet eros maecenas aliquet suscipit pulvinar laoreet.</p>]
-        </article>
+                    <p> turpis torquent scelerisque mauris.</p>
+                </article>
+                <article>
+
+                    <img src="images/Service2.png " />
+                    <h2>Templates</h2>
+                    <p> vel quis orci turpis taciti convallis.</p>
+                </article>
+                <article>
+                    <img src="images/Service3.png" />
+                    <h2>Temas Wordpress</h2>
+
+                    <p> laoreet eros maecenas aliquet.</p>]
+                </article>
+
+            </div>
+        </div>
     </section>
     <section id="trabalhos">
         <h2>Meus Trabalhos</h2>
@@ -76,8 +86,9 @@
                 <a href="#">Tema</a>
             </li>
         </ul>
+        <div class="container">
         <figure>
-            <img src="images/Portfolio01.png" />
+            <img src="images/Portfolio01.png"/>
             <p>Lorem, ipsum dolor.</p>
             <figcaption>
                 Lorem ipsum dolor sit amet.
@@ -91,12 +102,13 @@
             </figcaption>
         </figure>
         <figure>
-            <img src="images/Portfolio03.png" />
+            <img src="images/Portfolio03.png">
             <p>Lorem, ipsum dolor.</p>
             <figcaption>
                 Lorem ipsum dolor sit amet.
             </figcaption>
         </figure>
+    </div>
     </section>
     <section id="identificacao">
         <h2>Quem Sou Eu</h2>
@@ -104,7 +116,7 @@
             blandit congue feugiat proin aenean sed felis donec, class sociosqu aliquet hac consequat est elit lectus
             pellentesque quisque.</p>
         <hr>
-        <figure>
+        <figure id="fotojoana">
             <img src="images/photo.png" />
             <figcaption>Joana D'arc</figcaption>
         </figure>
